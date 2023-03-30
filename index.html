@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LudoGame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="game">
+      <h1 id="primary-heading">LudoGame</h1>
+      <div class="player">
+        <h3 class="secondary-heading" id="player1">Player1</h3>
+        <img src="./assets/dice1.png" alt="dice-img" id="dicesrc1" />
+      </div>
+      <div class="player">
+        <h3 class="secondary-heading" id="player2">Player2</h3>
+        <img src="./assets/dice2.png" alt="dice-img" id="dicesrc2" />
+      </div>
+      <div class="button">
+        <button id="btn" value="Play" onclick="dice()">Play</button>
+      </div>
+    </div>
+    <script src="dice.js"></script>
+  </body>
+</html>
